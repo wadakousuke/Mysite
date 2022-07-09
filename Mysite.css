@@ -167,8 +167,10 @@ ul {
 }
 .strength-icon{
   size: 60px;
+  text-align: center;
 }
 .strength-text{
+  text-align: left;
   font-size: 16px;
 }
 .strength-title{
@@ -249,7 +251,7 @@ footer{
     height: 50px;
   }
   .container{
-    width: 90%
+    width: 100%
   }
   #mv{
     background-image: url(img/code.png);
@@ -278,29 +280,55 @@ footer{
     margin: 5px auto;
     background-color: #FAFAFA;
   }
-  #profile{
-    width: 90%;
-  }
-  .strength-group{
-    width: 90%;
-  }
 
   .production-group{
-    width: 90%;
+    width: 300px;
+    
   }
   .bg-1{
+    display: none;
   }
   .bg-2{
     background-image:url(img/websuku.png);
   }
   .bg-3{
+    display: none;
   }
   .bg-4{
     background-image:url(img/webcamp.png);
   }
   .bg-5{
+    display: none;
   }
   .bg-6{
     background-image:url(img/webcamp-mother.png);
   }
+  .strength-group{
+    flex-flow: row wrap;
+    width: 320px;
+  }
+  .strength{
+    width: 90%;
+  }
+  .profile-group{
+    flex-flow: row wrap;
+    text-align: center;
+    width: 90%;
+  }
+  
+.contact-group{
+  flex-flow: row wrap;
+  width: 100%;
+  text-align: center;
+}
+.left-contact-content{
+  width: 100%;
+}
+
+.contact-icon{
+  size: 50px;
+}
+.right-contact-content{
+  width: 100%;
+}
 }
